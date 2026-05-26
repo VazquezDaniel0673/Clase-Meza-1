@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listado de Empleados - Estilo Rústico</title>
+    <style>
+        body {
+            font-family: "Comic Sans MS", "Comic Sans", cursive;
+            background-color: #f8fafc;
+            color: #334155;
+            margin: 30px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #1e293b;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #ffffff;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        th, td {
+            padding: 14px 16px;
+            text-align: left;
+            border-bottom: 1px solid #f1f5f9;
+        }
+
+        th {
+            font-weight: bold;
+            text-transform: uppercase;
+            background-color: #e2e8f0;
+            color: #475569;
+            font-size: 0.9rem;
+            letter-spacing: 0.5px;
+        }
+
+        tbody tr:hover {
+            background-color: #f1f5f9;
+        }
+
+        tbody tr:last-child td {
+            border-bottom: none;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>LISTADO DE EMPLEADOS</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Id Empleado</th>
+                <th>Nombre</th>
+                <th>Cargo</th>
+                <th>Contacto</th>
+                <th>Sueldo</th>
+                <th>Dirección</th>
+                <th>RFC</th>
+                <th>CURP</th>
+                <th>Horario</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>001</td>
+                <td>Roberto Gómez</td>
+                <td>Director</td>
+                <td>6561127233</td>
+                <td>30000</td>
+                <td>Av. De la Raza 123</td>
+                <td>GORP800104H12</td>
+                <td>GORP800104HMZRR</td>
+                <td>Lunes-Viernes 9-16</td>
+            </tr>
+            <tr>
+                <td>002</td>
+                <td>Elena Poniatowska</td>
+                <td>Jefe de cirugía</td>
+                <td>6564455566</td>
+                <td>18000</td>
+                <td>Calle 16 de septiembre</td>
+                <td>POEE750512T34</td>
+                <td>POEE750512MCH</td>
+                <td>M-S 10-18</td>
+            </tr>
+            <tr>
+                <td>003</td>
+                <td>Octavio Paz</td>
+                <td>Vet. General</td>
+                <td>6567778899</td>
+                <td>22000</td>
+                <td>Paseo triunfo 8</td>
+                <td>PAOO600320A5</td>
+                <td>PAOO600320H</td>
+                <td>L-V 8-16</td>
+            </tr>
+            <tr>
+                <td>004</td>
+                <td>Juan Rulfo</td>
+                <td>Auxiliar</td>
+                <td>6560000000</td>
+                <td>92000</td>
+                <td>C. Ignacio Me...</td>
+                <td>RUVJ901215B78</td>
+                <td>RUVJ901215HMZR</td>
+                <td>L-S 12-20</td>
+            </tr>
+            <tr>
+                <td>005</td>
+                <td>Frida Kahlo</td>
+                <td>Estilista</td>
+                <td>6563344455</td>
+                <td>11000</td>
+                <td>Coyoacán #100</td>
+                <td>KAKF070706H12</td>
+                <td>KAKF070706MDFRN</td>
+                <td>M-D 10-18</td>
+            </tr>
+            <tr>
+                <td>006</td>
+                <td>Diego Rivera</td>
+                <td>Vigilante</td>
+                <td>6566677788</td>
+                <td>8500</td>
+                <td>Av. Altavista s/n</td>
+                <td>RIVD861208T34</td>
+                <td>RIVD861208HGTRNN05</td>
+                <td>Nocturno (L-D)</td>
+            </tr>
+            <tr>
+                <td>007</td>
+                <td>Sor Juana</td>
+                <td>Recepcionista</td>
+                <td>6562233344</td>
+                <td>8800</td>
+                <td>Hacienda de Panoayan</td>
+                <td>ASJI511112AS6</td>
+                <td>ASJI511112MDFRRR</td>
+                <td>L-V 8-15</td>
+            </tr>
+            <tr>
+                <td>008</td>
+                <td>Alfonso Cuarón</td>
+                <td>Chofer</td>
+                <td>6565566677</td>
+                <td>9500</td>
+                <td>C. Roma Norte 55</td>
+                <td>CUOA611128B78</td>
+                <td>CUOA611128HDFRR</td>
+                <td>L-S 9-17</td>
+            </tr>
+            <tr>
+                <td>009</td>
+                <td>Guillermo Toro</td>
+                <td>Almacén</td>
+                <td>6568899900</td>
+                <td>10000</td>
+                <td>Av. Chapultepec</td>
+                <td>DOGX641009H12</td>
+                <td>DOGX641009HGRLLR</td>
+                <td>L-V 7-15</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
